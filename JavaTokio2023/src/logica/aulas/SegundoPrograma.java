@@ -1,4 +1,4 @@
-package logico.out;
+package logica.aulas;
 
 import java.util.Scanner;
 
@@ -17,12 +17,9 @@ public class SegundoPrograma {
 		
 		System.out.println("Bem-Vindo, " + nome);
 		
-	
-	
-	
-	
+		entrada.close();
 	
 	
 	}
-	
 }
+

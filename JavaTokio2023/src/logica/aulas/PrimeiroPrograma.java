@@ -1,11 +1,11 @@
-package logico.out;
+package logica.aulas;
 
 public class PrimeiroPrograma {
 
 	
 	public static void main(String[] args) {
 		
-		System.out.println("Olá, mundo!");
+		System.out.println("Olï¿½, mundo!");
 		
 		int idade;  
 		idade = 18;
@@ -17,11 +17,11 @@ public class PrimeiroPrograma {
 		double salario = 1318.20;
 		System.out.println(salario);
 		
-		String nome = "João";
+		String nome = "Joï¿½o";
 		System.out.println(nome);
 		
 		System.out.println("Bem-vindo, " + nome + "!");
-		System.out.println(nome + ", você tem " + idade + " anos.");
+		System.out.println(nome + ", vocï¿½ tem " + idade + " anos.");
 		
 	}
 

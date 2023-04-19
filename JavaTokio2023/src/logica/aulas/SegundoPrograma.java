@@ -10,7 +10,7 @@ public class SegundoPrograma {
 		
 		System.out.println("digite seu nome: ");
 		String nome = entrada.nextLine();
-		
+	
 		
 		System.out.println("Digite sua idade: ");
 		System.out.println("Sua idade e: " + entrada.nextLine());

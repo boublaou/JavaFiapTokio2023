@@ -18,6 +18,7 @@ public class IndroducaoCondicionais {
 		//ESTRUTURA CONDICIONAL COMPOSTA
 		//..............................
 		
+		/*
 		float notaFinal = 4;
 		
 		if (notaFinal < 6) {
@@ -25,6 +26,42 @@ public class IndroducaoCondicionais {
 		} else {
 			System.out.println("Aprovado");
 		}
+		*/
+		//..............................
+		//ESTRUTURA CONDICIONAL ENCADEADA
+		//..............................
+				
+		
+		/*
+		float notaFinal = 10;
+		if (notaFinal < 4) {
+			System.out.println("Reprovado");
+		} else {
+			if (notaFinal < 6) {
+				System.out.println("Recuperaçao");
+			} else {
+				System.out.println("Aprovado");
+			}
+		}
+		*/
+		
+		//..............................
+		//ESTRUTURA CONDICIONAL COMPOSTA
+		//..............................
+		
+		float notaFinal = 10;
+		if (notaFinal < 4) {
+			System.out.println("Reprovado");
+		} else if (notaFinal < 6) {
+			System.out.println("Recuperaçao");
+		} else {
+			System.out.println("Aprovado");
+		}
+		
+		
+		
+		
+		
 		
 		
 	}

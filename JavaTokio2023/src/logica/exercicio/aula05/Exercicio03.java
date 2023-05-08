@@ -6,23 +6,23 @@ public class Exercicio03 {
 
 	public static void main(String[] args) {
 		
-		Scanner entrada = new Scanner(System.in);
 		
-		System.out.println("Seu nome: " + entrada.nextLine());
+Scanner sc = new Scanner(System.in);
 		
-		Scanner masculino = new Scanner(System.in);
-		char m = masculino.nextLine().charAt(0);
+		System.out.println("Digite seu nome: ");
+		String nome = sc.nextLine();
 		
-		Scanner feminino = new Scanner(System.in);
-		char f = feminino.nextLine().charAt(0);
+		//tem que continuar 
 		
-		Scanner outro = new Scanner(System.in);
-		char O = outro.nextLine().charAt(0);
+		System.out.println("Selecione seu genero da seguinte forma: ");
+		System.out.println("[M] - Masculino");
+		System.out.println("[F] - Femenino");
+		System.out.println("[O] - Outro");
+		System.out.println("[N] - Nao responder");
 		
-		Scanner semresposta = new Scanner(System.in);
-		char N = semresposta.nextLine().charAt(0);
-
-		//Precisa Fazer
+		char genero = sc.nextLine().charAt(0);
+		System.out.println("lá, %s! Voce escolheu a seguinte opcao de genero: %s");
+		
 	}
 
 }

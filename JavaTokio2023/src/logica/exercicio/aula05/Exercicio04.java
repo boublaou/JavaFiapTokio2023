@@ -6,27 +6,17 @@ public class Exercicio04 {
 
 	public static void main(String[] args) {
 		
-		Scanner A = new Scanner (System.in);
+		Scanner sc = new Scanner(System.in);
 		
-		//receber a primeira nota
-		System.out.println("Digite a primeira nota: " );
-		String nota1 = A.nextLine();
-	
+		double notaA = sc.nextDouble();
+		double notaB = sc.nextDouble();
 		
-		//receber a segunda nota
-		Scanner B = new Scanner (System.in);
+		double media = (notaA + notaB);
 		
-		System.out.println("Digite a primeira nota: " );
-		String nota2 = B.nextLine();
-		
-		//precisa fazer
-		
-
+		System.out.println("media: " + media);
 		
 		
 		
-		
-
 	}
 
 }
